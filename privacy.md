@@ -16,7 +16,13 @@ The app stores timer durations, preferences, and the current session on your iPh
 
 ### Data sent to the developer
 
-The current app does not send timer information to a developer-operated server. It does not include advertising, analytics, or in-app purchase SDKs. It does not collect precise location data. Apple may process information through its operating system services, backups, and diagnostics according to your device settings and Apple's policies.
+The app does not send timer information to a developer-operated server. It does not include a separate analytics or in-app purchase SDK, and it does not collect precise location data. Apple may process information through its operating system services, backups, and diagnostics according to your device settings and Apple's policies.
+
+### Advertising and consent
+
+The app may show a Google AdMob banner on the "Start Now" setup screen and while a timer is running. The Google Mobile Ads SDK may process IP address, device or app identifiers, approximate location derived from IP address, ad views and interactions, and diagnostic or performance data for advertising and measurement. Timer durations and session details are not sent to Google by the developer for ad targeting. The app does not request Apple's App Tracking Transparency permission.
+
+Where required, the app uses Google's User Messaging Platform to present a consent form before requesting ads. If Google requires an ongoing privacy-options entry point, it appears in the app's Settings screen. See [Google's privacy policy](https://policies.google.com/privacy) and [Google's information about AdMob](https://support.google.com/admob/answer/6128543).
 
 If you email support, the developer receives your email address and the information you choose to include. This information is used to answer your request and is kept only as needed for support. You may request its deletion by emailing the address below.
 
@@ -26,7 +32,7 @@ Settings and session information remain on a device while the app is installed t
 
 ### Changes and contact
 
-If advertising, purchases, or other data practices are added, this policy and the App Store privacy information will be updated to match the released app. For questions or support-data deletion requests, contact clientcenter99@gmail.com.
+If purchases or other data practices are added, this policy and the App Store privacy information will be updated to match the released app. For questions or support-data deletion requests, contact clientcenter99@gmail.com.
 
 ---
 
@@ -40,7 +46,13 @@ If advertising, purchases, or other data practices are added, this policy and th
 
 ### 運営者へ送信される情報
 
-現在のアプリは、タイマー情報を運営者のサーバーへ送信しません。広告、利用状況解析、アプリ内課金のSDKは組み込んでいません。正確な位置情報を収集しません。OSの機能、バックアップ、診断に伴う情報は、端末の設定およびAppleの方針に従って扱われる場合があります。
+アプリは、タイマー情報を運営者のサーバーへ送信しません。広告とは別の利用状況解析SDKやアプリ内課金SDKは組み込んでいません。正確な位置情報を収集しません。OSの機能、バックアップ、診断に伴う情報は、端末の設定およびAppleの方針に従って扱われる場合があります。
+
+### 広告と同意
+
+「今すぐ」の設定画面とタイマー稼働中の画面に、Google AdMob のバナー広告を表示する場合があります。Google Mobile Ads SDK は、広告の配信・効果測定などのため、IPアドレス、端末またはアプリの識別子、IPアドレスから推定するおおよその位置、広告の表示・操作、診断・性能に関する情報を扱う場合があります。運営者が広告のターゲティングのためにタイマーの設定値や実行内容をGoogleへ送信することはありません。アプリはAppleのApp Tracking Transparencyの許可を要求しません。
+
+同意が必要な地域では、広告をリクエストする前にGoogleのUser Messaging Platformで選択画面を表示します。継続的なプライバシー選択の導線が必要な場合は、アプリの設定画面に表示します。[Googleのプライバシーポリシー](https://policies.google.com/privacy)と[AdMobに関する説明](https://support.google.com/admob/answer/6128543)もご覧ください。
 
 サポートにメールを送った場合は、メールアドレスと本文に記載された情報を運営者が受け取ります。問い合わせへの対応に必要な期間だけ保持し、削除を希望する場合は下記の連絡先へ依頼できます。
 
@@ -50,4 +62,4 @@ If advertising, purchases, or other data practices are added, this policy and th
 
 ### 変更とお問い合わせ
 
-広告や課金などを追加する際は、公開するアプリの実装に合わせて本ポリシーとApp Storeのプライバシー情報を更新します。ご質問やサポートメールの削除依頼は clientcenter99@gmail.com までご連絡ください。
+課金などを追加する際は、公開するアプリの実装に合わせて本ポリシーとApp Storeのプライバシー情報を更新します。ご質問やサポートメールの削除依頼は clientcenter99@gmail.com までご連絡ください。
