@@ -4,7 +4,7 @@ permalink: /terms.html
 
 # Terms of Use / 利用規約
 
-Last updated / 最終更新日: 2026-11-04
+Last updated / 最終更新日: 2026-11-05
 
 ## English
 

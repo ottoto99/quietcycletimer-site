@@ -4,7 +4,7 @@ permalink: /privacy.html
 
 # Privacy Policy / プライバシーポリシー
 
-Last updated / 最終更新日: 2026-11-04
+Last updated / 最終更新日: 2026-11-05
 
 ## English
 
