@@ -4,7 +4,7 @@ permalink: /privacy.html
 
 # Privacy Policy / プライバシーポリシー
 
-Last updated / 最終更新日: 2026-11-03
+Last updated / 最終更新日: 2026-11-04
 
 ## English
 
@@ -16,7 +16,13 @@ The app stores timer durations, preferences, and the current session on your iPh
 
 ### Data sent to the developer
 
-The app does not send timer information to a developer-operated server. It does not include a separate analytics or in-app purchase SDK, and it does not collect precise location data. Apple may process information through its operating system services, backups, and diagnostics according to your device settings and Apple's policies.
+The app does not send timer information to a developer-operated server. It does not include a separate analytics SDK and does not collect precise location data. Apple may process information through its operating system services, backups, purchases, and diagnostics according to your device settings and Apple's policies.
+
+### Announcements and subscriptions
+
+The app uses Firebase Remote Config to obtain the announcement feed URL and a setting that controls whether ads are shown. Google processes a Firebase installation ID to provide Remote Config. Announcement titles, text, and optional links are downloaded from the public Quiet Cycle Timer website. The app does not send timer durations or session details with these requests.
+
+Monthly and yearly Premium subscriptions are processed through Apple's StoreKit. The app checks verified purchase status to hide ads while a subscription is active. The developer does not operate a separate payment server. Usage limits are not currently part of Premium.
 
 ### Advertising and consent
 
@@ -32,7 +38,7 @@ Settings and session information remain on a device while the app is installed t
 
 ### Changes and contact
 
-If purchases or other data practices are added, this policy and the App Store privacy information will be updated to match the released app. For questions or support-data deletion requests, contact clientcenter99@gmail.com.
+If data practices change, this policy and the App Store privacy information will be updated to match the released app. For questions or support-data deletion requests, contact clientcenter99@gmail.com.
 
 ---
 
@@ -46,7 +52,13 @@ If purchases or other data practices are added, this policy and the App Store pr
 
 ### 運営者へ送信される情報
 
-アプリは、タイマー情報を運営者のサーバーへ送信しません。広告とは別の利用状況解析SDKやアプリ内課金SDKは組み込んでいません。正確な位置情報を収集しません。OSの機能、バックアップ、診断に伴う情報は、端末の設定およびAppleの方針に従って扱われる場合があります。
+アプリは、タイマー情報を運営者のサーバーへ送信しません。広告とは別の利用状況解析SDKは組み込んでおらず、正確な位置情報を収集しません。OSの機能、バックアップ、購入、診断に伴う情報は、端末の設定およびAppleの方針に従って扱われる場合があります。
+
+### お知らせとサブスクリプション
+
+お知らせの取得先URLと広告表示の設定には Firebase Remote Config を使います。GoogleはRemote Configの提供のためにFirebaseのインストール識別子を扱います。お知らせのタイトル・本文・任意のリンクはQuiet Cycle Timerの公開サイトから取得します。これらの通信でタイマーの設定値や実行内容を送信しません。
+
+月額・年額のPremiumサブスクリプションはAppleのStoreKitで処理します。アプリは確認済みの購入状態を使い、契約が有効な間は広告を非表示にします。運営者独自の決済サーバーはありません。現在、利用回数制限の解除はPremium特典に含みません。
 
 ### 広告と同意
 
@@ -62,4 +74,4 @@ If purchases or other data practices are added, this policy and the App Store pr
 
 ### 変更とお問い合わせ
 
-課金などを追加する際は、公開するアプリの実装に合わせて本ポリシーとApp Storeのプライバシー情報を更新します。ご質問やサポートメールの削除依頼は clientcenter99@gmail.com までご連絡ください。
+情報の取り扱いが変わる際は、公開するアプリの実装に合わせて本ポリシーとApp Storeのプライバシー情報を更新します。ご質問やサポートメールの削除依頼は clientcenter99@gmail.com までご連絡ください。
