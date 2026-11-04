@@ -12,7 +12,7 @@ This policy describes how Quiet Cycle Timer handles information. The app is prov
 
 ### Data stored on your devices
 
-The app stores timer durations, preferences, and the current session on your iPhone. The Apple Watch app stores the settings and display state it needs. The apps exchange timer state and controls through Apple's WatchConnectivity. The iPhone schedules alarms using Apple's AlarmKit. The app does not require an account.
+The app stores timer durations, preferences, the current session, the first launch date, and local free-use completion records on your iPhone. The Apple Watch app stores the settings and display state it needs. The apps exchange timer state and controls through Apple's WatchConnectivity. The iPhone schedules alarms using Apple's AlarmKit. The app does not require an account.
 
 ### Data sent to the developer
 
@@ -22,7 +22,7 @@ The app does not send timer information to a developer-operated server. It does 
 
 The app uses Firebase Remote Config to obtain the announcement feed URL and a setting that controls whether ads are shown. Google processes a Firebase installation ID to provide Remote Config. Announcement titles, text, and optional links are downloaded from the public Quiet Cycle Timer website. The app does not send timer durations or session details with these requests.
 
-Monthly and yearly Premium subscriptions are processed through Apple's StoreKit. The app checks verified purchase status to hide ads while a subscription is active. The developer does not operate a separate payment server. Usage limits are not currently part of Premium.
+Monthly and yearly Premium subscriptions are processed through Apple's StoreKit. The app checks verified purchase status to hide ads and remove the weekly timer limit while a subscription is active. The developer does not operate a separate payment server. Free-use records stay on the iPhone and are not sent to the developer.
 
 ### Advertising and consent
 
@@ -48,7 +48,7 @@ If data practices change, this policy and the App Store privacy information will
 
 ### 端末内に保存する情報
 
-タイマーの時間、設定、実行中の状態をiPhoneに保存します。Apple Watchアプリは、表示に必要な設定と状態をWatchに保存します。アプリ間ではAppleのWatchConnectivityを使ってタイマーの状態や操作をやり取りします。アラームの予約にはAppleのAlarmKitを使います。アカウント登録は不要です。
+タイマーの時間、設定、実行中の状態、初回起動日、無料利用の完了記録をiPhoneに保存します。Apple Watchアプリは、表示に必要な設定と状態をWatchに保存します。アプリ間ではAppleのWatchConnectivityを使ってタイマーの状態や操作をやり取りします。アラームの予約にはAppleのAlarmKitを使います。アカウント登録は不要です。
 
 ### 運営者へ送信される情報
 
@@ -58,7 +58,7 @@ If data practices change, this policy and the App Store privacy information will
 
 お知らせの取得先URLと広告表示の設定には Firebase Remote Config を使います。GoogleはRemote Configの提供のためにFirebaseのインストール識別子を扱います。お知らせのタイトル・本文・任意のリンクはQuiet Cycle Timerの公開サイトから取得します。これらの通信でタイマーの設定値や実行内容を送信しません。
 
-月額・年額のPremiumサブスクリプションはAppleのStoreKitで処理します。アプリは確認済みの購入状態を使い、契約が有効な間は広告を非表示にします。運営者独自の決済サーバーはありません。現在、利用回数制限の解除はPremium特典に含みません。
+月額・年額のPremiumサブスクリプションはAppleのStoreKitで処理します。アプリは確認済みの購入状態を使い、契約が有効な間は広告と週の利用回数制限を解除します。運営者独自の決済サーバーはありません。無料利用の記録はiPhone内に保存し、運営者へ送信しません。
 
 ### 広告と同意
 
