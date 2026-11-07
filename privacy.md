@@ -4,7 +4,7 @@ permalink: /privacy.html
 
 # Privacy Policy / プライバシーポリシー
 
-Last updated / 最終更新日: 2026-11-05
+Last updated / 最終更新日: 2026-11-07
 
 ## English
 
@@ -16,11 +16,11 @@ The app stores timer durations, preferences, the current session, the first laun
 
 ### Data sent to the developer
 
-The app does not send timer information to a developer-operated server. It does not include a separate analytics SDK and does not collect precise location data. Apple may process information through its operating system services, backups, purchases, and diagnostics according to your device settings and Apple's policies.
+The app does not send timer information to a developer-operated server. It uses Google Analytics for Firebase to measure general app usage and does not collect precise location data. The developer does not add timer durations or session details to analytics events. Apple may process information through its operating system services, backups, purchases, and diagnostics according to your device settings and Apple's policies.
 
 ### Announcements and subscriptions
 
-The app uses Firebase Remote Config to obtain the announcement feed URL and a setting that controls whether ads are shown. Google processes a Firebase installation ID to provide Remote Config. Announcement titles, text, and optional links are downloaded from the public Quiet Cycle Timer website. The app does not send timer durations or session details with these requests.
+The app uses Firebase Remote Config to obtain the announcement feed URL and a setting that controls whether ads are shown. Google processes a Firebase installation ID to provide Remote Config. The app also uses Google Analytics for Firebase to collect automatically generated usage events, such as app opens and in-app purchases, and app-instance and device information for measurement. Announcement titles, text, and optional links are downloaded from the public Quiet Cycle Timer website. The app does not send timer durations or session details with these requests or analytics events. See [Firebase's privacy and security information](https://firebase.google.com/support/privacy).
 
 Monthly and yearly Premium subscriptions are processed through Apple's StoreKit. The app checks verified purchase status to hide ads and remove the weekly timer limit while a subscription is active. The developer does not operate a separate payment server. Free-use records stay on the iPhone and are not sent to the developer.
 
@@ -52,11 +52,11 @@ If data practices change, this policy and the App Store privacy information will
 
 ### 運営者へ送信される情報
 
-アプリは、タイマー情報を運営者のサーバーへ送信しません。広告とは別の利用状況解析SDKは組み込んでおらず、正確な位置情報を収集しません。OSの機能、バックアップ、購入、診断に伴う情報は、端末の設定およびAppleの方針に従って扱われる場合があります。
+アプリは、タイマー情報を運営者のサーバーへ送信しません。一般的な利用状況の把握には Google Analytics for Firebase を使いますが、正確な位置情報は収集しません。運営者が解析イベントにタイマーの設定時間や実行内容を追加することはありません。OSの機能、バックアップ、購入、診断に伴う情報は、端末の設定およびAppleの方針に従って扱われる場合があります。
 
 ### お知らせとサブスクリプション
 
-お知らせの取得先URLと広告表示の設定には Firebase Remote Config を使います。GoogleはRemote Configの提供のためにFirebaseのインストール識別子を扱います。お知らせのタイトル・本文・任意のリンクはQuiet Cycle Timerの公開サイトから取得します。これらの通信でタイマーの設定値や実行内容を送信しません。
+お知らせの取得先URLと広告表示の設定には Firebase Remote Config を使います。GoogleはRemote Configの提供のためにFirebaseのインストール識別子を扱います。また Google Analytics for Firebase が、アプリの起動やアプリ内購入などの自動生成イベントと、計測に必要なアプリインスタンス・端末情報を扱います。お知らせのタイトル・本文・任意のリンクはQuiet Cycle Timerの公開サイトから取得します。これらの通信や解析イベントにタイマーの設定時間や実行内容を含めません。[Firebaseのプライバシーとセキュリティに関する説明](https://firebase.google.com/support/privacy)もご覧ください。
 
 月額・年額のPremiumサブスクリプションはAppleのStoreKitで処理します。アプリは確認済みの購入状態を使い、契約が有効な間は広告と週の利用回数制限を解除します。運営者独自の決済サーバーはありません。無料利用の記録はiPhone内に保存し、運営者へ送信しません。
 
